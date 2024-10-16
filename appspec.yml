@@ -1,6 +1,6 @@
 version: 0.0
 os: linux
 files:
-  - source: /scripts/index2.html
+  - source: /scripts/index3.html
     destination: /var/www/html/
   
