@@ -5,3 +5,8 @@ files:
     destination: /var/www/html/
   - source: /scripts/teste.txt
     destination: /var/www/html/
+hooks:
+  BeforeInstall:
+    - location: scripts/install_dependencies
+      timeout: 300
+      runas: root
